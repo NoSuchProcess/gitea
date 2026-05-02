@@ -354,6 +354,10 @@ strong {
   color: #{$crust};
 }
 
+code:not(pre code):not(.code-inner) {
+  background-color: var(--color-markup-code-inline) !important;
+}
+
 ::selection {
   background: color.change($accent, $alpha: 0.3) !important;
 }
